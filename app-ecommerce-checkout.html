@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Frogetor - Duyarlı Bootstrap 4 Yönetici Paneli</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Mannatthemes tarafından hazırlanan premium yönetici paneli şablonu" name="description" />
+        <meta content="Mannatthemes" name="author" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/metismenu.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+        <!-- Top Bar Start -->
+        <div class="topbar">
+             <!-- Navbar -->
+             <nav class="navbar-custom">
+
+                <!-- LOGO -->
+                <div class="topbar-left">
+                    <a href="index.html" class="logo">
+                        <span>
+                            <img src="assets/images/logo-sm.png" alt="logo-küçük" class="logo-sm">
+                        </span>
+                        <span>
+                            <img src="assets/images/logo-dark.png" alt="logo-büyük" class="logo-lg">
+                        </span>
+                    </a>
+                </div>
+    
+                <ul class="list-unstyled topbar-nav float-right mb-0">
+
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="false" aria-expanded="false">
+                            <i class="mdi mdi-bell-outline nav-icon"></i>
+                            <span class="badge badge-danger badge-pill noti-icon-badge">2</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+                            <!-- item-->
+                            <h6 class="dropdown-item-text">
+                                Bildirimler (258)
+                            </h6>
+                            <div class="slimscroll notification-list">
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item active">
+                                    <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i></div>
+                                    <p class="notify-details">Siparişiniz alındı<small class="text-muted">Baskı ve dizgi endüstrisinin sahte metni.</small></p>
+                                </a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-warning"><i class="mdi mdi-message"></i></div>
+                                    <p class="notify-details">Yeni mesaj alındı<small class="text-muted">87 okunmamış mesajınız var</small></p>
+                                </a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-info"><i class="mdi mdi-glass-cocktail"></i></div>
+                                    <p class="notify-details">Ürününüz gönderildi<small class="text-muted">Bir okuyucunun dikkatini dağıtacağı uzun zamandır bilinen bir gerçektir</small></p>
+                                </a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-primary"><i class="mdi mdi-cart-outline"></i></div>
+                                    <p class="notify-details">Siparişiniz alındı<small class="text-muted">Baskı ve dizgi endüstrisinin sahte metni.</small></p>
+                                </a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-danger"><i class="mdi mdi-message"></i></div>
+                                    <p class="notify-details">Yeni mesaj alındı<small class="text-muted">87 okunmamış mesajınız var</small></p>
+                                </a>
+                            </div>
+                            <!-- All-->
+                            <a href="javascript:void(0);" class="dropdown-item text-center text-primary">
+                                Tümünü görüntüle <i class="fi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="false" aria-expanded="false">
+                            <img src="assets/images/users/user-1.jpg" alt="profil-kullanıcı" class="rounded-circle" /> 
+                            <span class="ml-1 nav-user-name hidden-sm"> <i class="mdi mdi-chevron-down"></i> </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#"><i class="dripicons-user text-muted mr-2"></i> Profil</a>
+                            <a class="dropdown-item" href="#"><i class="dripicons-wallet text-muted mr-2"></i> Cüzdanım</a>
+                            <a class="dropdown-item" href="#"><i class="dripicons-gear text-muted mr-2"></i> Ayarlar</a>
+                            <a class="dropdown-item" href="#"><i class="dripicons-lock text-muted mr-2"></i> Ekranı kilitle</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><i class="dripicons-exit text-muted mr-2"></i> Çıkış</a>
+                        </div>
+                    </li>
+                </ul>
+    
+                <ul class="list-unstyled topbar-nav mb-0">
+                        
+                    <li>
+                        <button class="button-menu-mobile nav-link waves-effect waves-light">
+                            <i class="mdi mdi-menu nav-icon"></i>
+                        </button>
+                    </li>
+
+                    <li class="hide-phone app-search">
+                        <form role="search" class="">
+                            <input type="text" placeholder="Ara..." class="form-control">
+                            <a href=""><i class="fas fa-search"></i></a>
+                        </form>
+                    </li>
+                    
+                </ul>
+
+            </nav>
+            <!-- end navbar-->
+        </div>
+        <!-- Top Bar End -->
+        <div class="page-wrapper-img">
+            <div class="page-wrapper-img-inner">
+                <div class="sidebar-user media">                    
+                    <img src="assets/images/users/user-1.jpg" alt="kullanıcı" class="rounded-circle img-thumbnail mb-1">
+                    <span class="online-icon"><i class="mdi mdi-record text-success"></i></span>
+                    <div class="media-body align-item-center">
+                        <h5>Bay Michael Hill </h5>
+                        <ul class="list-unstyled list-inline mb-0 mt-2">
+                            <li class="list-inline-item">
+                                <a href="javascript: void(0);" class=""><i class="mdi mdi-account"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript: void(0);" class=""><i class="mdi mdi-settings"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript: void(0);" class=""><i class="mdi mdi-power"></i></a>
+                            </li>
+                        </ul>
+                    </div>                    
+                </div>
+                <!-- Page-Title -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="page-title-box">
+                            <div class="float-right align-item-center mt-2">
+                                <button class="btn btn-info px-4 align-self-center report-btn">Rapor Oluştur</button>
+                            </div>
+                            <h4 class="page-title mb-2"><i class="mdi mdi-cash-usd mr-2"></i>Ödeme</h4>  
+                            <div class="">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="javascript:void(0);">Frogetor</a></li>
+                                    <li class="breadcrumb-item"><a href="javascript:void(0);">Uygulama</a></li>
+                                    <li class="breadcrumb-item active">Ödeme</li>
+                                </ol>
+                            </div>                                      
+                        </div><!--end page title box-->
+                    </div><!--end col-->
+                </div><!--end row-->
+                <!-- end page title end breadcrumb -->
+            </div><!--end page-wrapper-img-inner-->
+        </div><!--end page-wrapper-img-->
+        
+        <div class="page-wrapper">
+            <div class="page-wrapper-inner">
+
+                <!-- Left Sidenav -->
+                <div class="left-sidenav">
+                    
+                    <ul class="metismenu left-sidenav-menu" id="side-nav">
+
+                        <li class="menu-title">Ana</li>
+
+                        <li>
+                            <a href="javascript: void(0);"><i class="mdi mdi-monitor"></i><span>Kontrol Panelleri</span><span class="badge badge-danger badge-pill float-right">9+</span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="index.html">Kontrol Paneli 1</a></li>
+                                <li><a href="index-2.html">Kontrol Paneli 2</a></li>
+                                <li><a href="index-3.html">Kontrol Paneli 3</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);"><i class="mdi mdi-apps"></i><span>Uygulama</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="app-chat.html"><span>Sohbet</span></a></li>
+                                <li><a href="app-calendar.html"><span>Takvim</span></a></li> 
+
+                                <li>
+                                    <a href="javascript: void(0);">E-Ticaret <span class="menu-arrow left-has-menu"><i class="mdi mdi-chevron-right"></i></span></a>
+                                    <ul class="nav-second-level" aria-expanded="false">
+                                        <li><a href="app-ecommerce-product.html">Ürün</a></li>
+                                        <li><a href="app-ecommerce-product-list.html">Ürün Listesi</a></li>
+                                        <li><a href="app-ecommerce-product-detail.html">Ürün Detayı</a></li>
+                                        <li><a href="app-ecommerce-cart.html">Sepet</a></li>
+                                        <li><a href="app-ecommerce-checkout.html">Ödeme</a></li>
+                                    </ul>
+                                </li>                                
+                                <li><a href="app-contact-list.html"><span>İletişim Listesi</span></a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);"><i class="mdi mdi-email-variant"></i><span>E-posta</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="email-inbox.html">Gelen Kutusu</a></li>
+                                <li><a href="email-read.html">E-posta Oku</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- end left-sidenav-->
+
+                <!-- Page Content-->
+                <div class="page-content">
+                    <div class="container-fluid"> 
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title mt-0 mb-2">Sipariş Özeti</h4>
+                                        <div class="table-responsive shopping-cart">
+                                            <table class="table mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Ürün</th>
+                                                        <th>Miktar</th>                                                        
+                                                        <th>Toplam</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="assets/images/products/img-5.png" alt="" height="52">
+                                                            <p class="d-inline-block align-middle mb-0 product-name">Spor Ayakkabı</p> 
+                                                        </td>
+                                                        <td>
+                                                           2
+                                                        </td>
+                                                       <td>₺198</td>                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="assets/images/products/4.png" alt="" height="52">
+                                                            <p class="d-inline-block align-middle mb-0 product-name">Sarı Modern Sandalye</p> 
+                                                        </td>
+                                                        <td>
+                                                            1
+                                                        </td>
+                                                        <td>₺149</td>                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="assets/images/products/img-6.png" alt="" height="52">
+                                                            <p class="d-inline-block align-middle mb-0 product-name">Masa Lambası</p> 
+                                                        </td>
+                                                        <td>
+                                                            3
+                                                        </td>
+                                                        <td>₺147</td>                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="assets/images/products/img-4.png" alt="" height="52">
+                                                            <p class="d-inline-block align-middle mb-0 product-name">Deri Cüzdan</p> 
+                                                        </td>
+                                                        <td>
+                                                            1
+                                                        </td>
+                                                        <td>₺89</td>                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" class="border-top-0 text-right">
+                                                            <strong>Ara Toplam</strong>
+                                                        </td>
+                                                        <td class="border-top-0">
+                                                            ₺583
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" class="border-top-0 text-right">
+                                                            <strong>KDV</strong>
+                                                        </td>
+                                                        <td class="border-top-0">
+                                                            ₺105
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" class="border-top-0 text-right">
+                                                            <strong>Toplam</strong>
+                                                        </td>
+                                                        <td class="border-top-0 font-16">
+                                                            <strong>₺688</strong>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="media mt-3">
+                                            <img src="assets/images/users/user-1.jpg" alt="user" class="thumb-md rounded-circle">
+                                            <div class="media-body align-self-center ml-3">
+                                                <p class="font-14 font-weight-bold mb-0">Bay Michael Hill</p>
+                                                <p class="mb-0 font-12 text-muted">michael.hill@example.com</p>
+                                            </div>
+                                            <div class="action-btn">
+                                                <a href="" class="text-primary"><i class="fas fa-pencil-alt font-16"></i></a>
+                                            </div>                                                                   
+                                        </div>
+                                    </div><!--end card-body-->
+                                </div><!--end card-->
+                            </div><!--end col-->
+
+                            <div class="col-lg-8">
+                                <div class="card">
+                                    <div class="card-body">        
+                                        <h4 class="header-title mt-0 mb-3">Fatura Detayı</h4>
+                                        <form class="mb-0">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>İsim</label>
+                                                        <input type="text" class="form-control" id="firstName" placeholder="İsim">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>Soyisim</label>
+                                                        <input type="text" class="form-control" id="lastName" placeholder="Soyisim">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label>Firma İsmi</label>
+                                                        <input type="text" class="form-control" id="companyName" placeholder="Firma ismi girin">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>E-posta</label>
+                                                        <input type="email" class="form-control" id="email" placeholder="E-posta adresi">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>Telefon</label>
+                                                        <input type="text" class="form-control" id="phone" placeholder="Telefon no">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label>Adres</label>
+                                                        <textarea class="form-control" id="address" rows="4" placeholder="Adres bilgisi"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Şehir</label>
+                                                        <input type="text" class="form-control" id="city" placeholder="Şehir">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Ülke</label>
+                                                        <input type="text" class="form-control" id="country" placeholder="Ülke">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Posta Kodu</label>
+                                                        <input type="text" class="form-control" id="zipCode" placeholder="Posta kodu">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="shipping-info">
+                                                <h4 class="header-title mt-0 mb-3">Kargo Bilgisi</h4>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                                            <label class="custom-control-label " for="customRadioInline1">Standart Kargo - <span class="text-primary">₺9.00</span></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                                            <label class="custom-control-label" for="customRadioInline2">Hızlı Kargo - <span class="text-primary">₺19.00</span></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--end shipping-info-->
+
+                                            <div class="payment-info mt-4">
+                                                <h4 class="header-title mt-0 mb-3">Ödeme Bilgisi</h4>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input type="radio" id="BillingOptRadio1" name="billingOptions" class="custom-control-input">
+                                                            <label class="custom-control-label" for="BillingOptRadio1">Kredi Kartı</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input type="radio" id="BillingOptRadio2" name="billingOptions" class="custom-control-input">
+                                                            <label class="custom-control-label" for="BillingOptRadio2">Banka Havalesi</label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                            <input type="radio" id="BillingOptRadio3" name="billingOptions" class="custom-control-input">
+                                                            <label class="custom-control-label" for="BillingOptRadio3">Kapıda Ödeme</label>
+                                                        </div>
+                                                    </div><!--end col-->
+                                                </div><!--end row-->
+
+                                                <div class="row mt-3">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label for="card-number">Kart Numarası</label>
+                                                            <input type="text" id="card-number" class="form-control" placeholder="4242 4242 4242 4242">
+                                                        </div>
+                                                    </div><!--end col-->
+                                                </div><!--end row-->
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label>Kart Sahibi</label>
+                                                            <input type="text" class="form-control" placeholder="Kart sahibinin ismi">
+                                                        </div>
+                                                    </div><!--end col-->
+                                                    <div class="col-md-3">
+                                                        <div class="form-group">
+                                                            <label>Son Kullanma</label>
+                                                            <input type="text" class="form-control" placeholder="AA/YY">
+                                                        </div>
+                                                    </div><!--end col-->
+                                                    <div class="col-md-3">
+                                                        <div class="form-group">
+                                                            <label>CVV</label>
+                                                            <input type="text" class="form-control" placeholder="CVV">
+                                                        </div>
+                                                    </div><!--end col-->
+                                                </div><!--end row-->
+                                            </div><!--end payment-info-->
+                                            <button type="submit" class="btn btn-primary btn-lg float-right">Sipariş Ver</button>
+                                        </form><!--end form-->
+                                    </div><!--end card-body-->
+                                </div><!--end card-->
+                            </div><!--end col-->
+                        </div><!--end row-->
+
+                    </div><!-- container -->
+
+                    <footer class="footer text-center text-sm-left">
+                        &copy; 2019 Frogetor <span class="text-muted d-none d-sm-inline-block float-right">Crafted with <i class="mdi mdi-heart text-danger"></i> by Mannatthemes</span>
+                    </footer>
+                </div>
+                <!-- end page content -->
+            </div>
+            <!--end page-wrapper-inner -->
+        </div>
+        <!-- end page-wrapper -->
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/metisMenu.min.js"></script>
+        <script src="assets/js/waves.min.js"></script>
+        <script src="assets/js/jquery.slimscroll.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>

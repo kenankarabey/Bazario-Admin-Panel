@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Frogetor - Duyarlı Bootstrap 4 Yönetici Paneli</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Mannatthemes tarafından hazırlanan premium yönetici paneli şablonu" name="description" />
+        <meta content="Mannatthemes" name="author" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/metismenu.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+        <!-- Top Bar Start -->
+        <div class="topbar">
+             <!-- Navbar -->
+             <nav class="navbar-custom">
+
+                <!-- LOGO -->
+                <div class="topbar-left">
+                    <a href="index.html" class="logo">
+                        <span>
+                            <img src="assets/images/logo-sm.png" alt="logo-küçük" class="logo-sm">
+                        </span>
+                        <span>
+                            <img src="assets/images/logo-dark.png" alt="logo-büyük" class="logo-lg">
+                        </span>
+                    </a>
+                </div>
+    
+                <ul class="list-unstyled topbar-nav float-right mb-0">
+
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="false" aria-expanded="false">
+                            <i class="mdi mdi-bell-outline nav-icon"></i>
+                            <span class="badge badge-danger badge-pill noti-icon-badge">2</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+                            <!-- item-->
+                            <h6 class="dropdown-item-text">
+                                Bildirimler (258)
+                            </h6>
+                            <div class="slimscroll notification-list">
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item active">
+                                    <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i></div>
+                                    <p class="notify-details">Siparişiniz alındı<small class="text-muted">Baskı ve dizgi endüstrisinin sahte metni.</small></p>
+                                </a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-warning"><i class="mdi mdi-message"></i></div>
+                                    <p class="notify-details">Yeni mesaj alındı<small class="text-muted">87 okunmamış mesajınız var</small></p>
+                                </a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-info"><i class="mdi mdi-glass-cocktail"></i></div>
+                                    <p class="notify-details">Ürününüz gönderildi<small class="text-muted">Bir okuyucunun dikkatini dağıtacağı uzun zamandır bilinen bir gerçektir</small></p>
+                                </a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-primary"><i class="mdi mdi-cart-outline"></i></div>
+                                    <p class="notify-details">Siparişiniz alındı<small class="text-muted">Baskı ve dizgi endüstrisinin sahte metni.</small></p>
+                                </a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-danger"><i class="mdi mdi-message"></i></div>
+                                    <p class="notify-details">Yeni mesaj alındı<small class="text-muted">87 okunmamış mesajınız var</small></p>
+                                </a>
+                            </div>
+                            <!-- All-->
+                            <a href="javascript:void(0);" class="dropdown-item text-center text-primary">
+                                Tümünü görüntüle <i class="fi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="false" aria-expanded="false">
+                            <img src="assets/images/users/user-1.jpg" alt="profil-kullanıcı" class="rounded-circle" /> 
+                            <span class="ml-1 nav-user-name hidden-sm"> <i class="mdi mdi-chevron-down"></i> </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#"><i class="dripicons-user text-muted mr-2"></i> Profil</a>
+                            <a class="dropdown-item" href="#"><i class="dripicons-wallet text-muted mr-2"></i> Cüzdanım</a>
+                            <a class="dropdown-item" href="#"><i class="dripicons-gear text-muted mr-2"></i> Ayarlar</a>
+                            <a class="dropdown-item" href="#"><i class="dripicons-lock text-muted mr-2"></i> Ekranı kilitle</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><i class="dripicons-exit text-muted mr-2"></i> Çıkış</a>
+                        </div>
+                    </li>
+                </ul>
+    
+                <ul class="list-unstyled topbar-nav mb-0">
+                        
+                    <li>
+                        <button class="button-menu-mobile nav-link waves-effect waves-light">
+                            <i class="mdi mdi-menu nav-icon"></i>
+                        </button>
+                    </li>
+
+                    <li class="hide-phone app-search">
+                        <form role="search" class="">
+                            <input type="text" placeholder="Ara..." class="form-control">
+                            <a href=""><i class="fas fa-search"></i></a>
+                        </form>
+                    </li>
+                    
+                </ul>
+
+            </nav>
+            <!-- end navbar-->
+        </div>
+        <!-- Top Bar End -->
+        <div class="page-wrapper-img">
+            <div class="page-wrapper-img-inner">
+                <div class="sidebar-user media">                    
+                    <img src="assets/images/users/user-1.jpg" alt="kullanıcı" class="rounded-circle img-thumbnail mb-1">
+                    <span class="online-icon"><i class="mdi mdi-record text-success"></i></span>
+                    <div class="media-body align-item-center">
+                        <h5>Bay Michael Hill </h5>
+                        <ul class="list-unstyled list-inline mb-0 mt-2">
+                            <li class="list-inline-item">
+                                <a href="javascript: void(0);" class=""><i class="mdi mdi-account"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript: void(0);" class=""><i class="mdi mdi-settings"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript: void(0);" class=""><i class="mdi mdi-power"></i></a>
+                            </li>
+                        </ul>
+                    </div>                    
+                </div>
+                <!-- Page-Title -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="page-title-box">
+                            <div class="float-right align-item-center mt-2">
+                                <button class="btn btn-info px-4 align-self-center report-btn">Rapor Oluştur</button>
+                            </div>
+                            <h4 class="page-title mb-2"><i class="mdi mdi-cart mr-2"></i>Sepet</h4>  
+                            <div class="">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="javascript:void(0);">Frogetor</a></li>
+                                    <li class="breadcrumb-item"><a href="javascript:void(0);">Uygulama</a></li>
+                                    <li class="breadcrumb-item active">Sepet</li>
+                                </ol>
+                            </div>                                      
+                        </div><!--end page title box-->
+                    </div><!--end col-->
+                </div><!--end row-->
+                <!-- end page title end breadcrumb -->
+            </div><!--end page-wrapper-img-inner-->
+        </div><!--end page-wrapper-img-->
+        
+        <div class="page-wrapper">
+            <div class="page-wrapper-inner">
+
+                <!-- Left Sidenav -->
+                <div class="left-sidenav">
+                    
+                    <ul class="metismenu left-sidenav-menu" id="side-nav">
+
+                        <li class="menu-title">Ana</li>
+
+                        <li>
+                            <a href="javascript: void(0);"><i class="mdi mdi-monitor"></i><span>Kontrol Panelleri</span><span class="badge badge-danger badge-pill float-right">9+</span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="index.html">Kontrol Paneli 1</a></li>
+                                <li><a href="index-2.html">Kontrol Paneli 2</a></li>
+                                <li><a href="index-3.html">Kontrol Paneli 3</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);"><i class="mdi mdi-apps"></i><span>Uygulama</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="app-chat.html"><span>Sohbet</span></a></li>
+                                <li><a href="app-calendar.html"><span>Takvim</span></a></li> 
+
+                                <li>
+                                    <a href="javascript: void(0);">E-Ticaret <span class="menu-arrow left-has-menu"><i class="mdi mdi-chevron-right"></i></span></a>
+                                    <ul class="nav-second-level" aria-expanded="false">
+                                        <li><a href="app-ecommerce-product.html">Ürün</a></li>
+                                        <li><a href="app-ecommerce-product-list.html">Ürün Listesi</a></li>
+                                        <li><a href="app-ecommerce-product-detail.html">Ürün Detayı</a></li>
+                                        <li><a href="app-ecommerce-cart.html">Sepet</a></li>
+                                        <li><a href="app-ecommerce-checkout.html">Ödeme</a></li>
+                                    </ul>
+                                </li>                                
+                                <li><a href="app-contact-list.html"><span>İletişim Listesi</span></a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);"><i class="mdi mdi-email-variant"></i><span>E-posta</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="email-inbox.html">Gelen Kutusu</a></li>
+                                <li><a href="email-read.html">E-posta Oku</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- end left-sidenav-->
+
+                <!-- Page Content-->
+                <div class="page-content">
+                    <div class="container-fluid"> 
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title mt-0">Alışveriş Sepeti</h4>
+                                        <p class="mb-4 text-muted">Frogetor modern alışveriş sepeti.</p>
+                                        <div class="table-responsive shopping-cart">
+                                            <table class="table mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Ürün</th>
+                                                        <th>Fiyat</th>
+                                                        <th>Miktar</th>                                                        
+                                                        <th>Toplam</th>
+                                                        <th>İşlem</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="assets/images/products/img-5.png" alt="" height="52">
+                                                            <p class="d-inline-block align-middle mb-0">
+                                                                <a href="" class="d-inline-block align-middle mb-0 product-name">Spor Ayakkabı</a> 
+                                                                <br>
+                                                                <span class="text-muted font-13">beden-38 (Model 2019)</span> 
+                                                            </p>
+                                                        </td>
+                                                        <td>₺99</td>
+                                                        <td>
+                                                            <input class="form-control w-25" type="number" value="2" id="example-number-input">
+                                                        </td>
+                                                        <td>₺198</td>
+                                                        <td>
+                                                            <a href="" class="text-danger"><i class="mdi mdi-close-circle"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="assets/images/products/3.png" alt="" height="52">
+                                                            <p class="d-inline-block align-middle mb-0">
+                                                                <a href="" class="d-inline-block align-middle mb-0 product-name">Ofis Sandalyesi</a> 
+                                                                <br>
+                                                                <span class="text-muted font-13">Siyah Renk (Model 2019)</span> 
+                                                            </p>
+                                                        </td>
+                                                        <td>₺149</td>
+                                                        <td>
+                                                            <input class="form-control w-25" type="number" value="1" id="example-number-input">
+                                                        </td>
+                                                        <td>₺149</td>
+                                                        <td>
+                                                            <a href="" class="text-danger"><i class="mdi mdi-close-circle"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="assets/images/products/img-6.png" alt="" height="52">
+                                                            <p class="d-inline-block align-middle mb-0">
+                                                                <a href="" class="d-inline-block align-middle mb-0 product-name">Masa Lambası</a> 
+                                                                <br>
+                                                                <span class="text-muted font-13">Model EW36 (2019)</span> 
+                                                            </p>
+                                                        </td>
+                                                        <td>₺49</td>
+                                                        <td>
+                                                            <input class="form-control w-25" type="number" value="3" id="example-number-input">
+                                                        </td>
+                                                        <td>₺147</td>
+                                                        <td>
+                                                            <a href="" class="text-danger"><i class="mdi mdi-close-circle"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="assets/images/products/img-4.png" alt="" height="52">
+                                                            <p class="d-inline-block align-middle mb-0">
+                                                                <a href="" class="d-inline-block align-middle mb-0 product-name">Deri Cüzdan</a> 
+                                                                <br>
+                                                                <span class="text-muted font-13">%100 Hakiki Deri</span> 
+                                                            </p>
+                                                        </td>
+                                                        <td>₺89</td>
+                                                        <td>
+                                                            <input class="form-control w-25" type="number" value="1" id="example-number-input">
+                                                        </td>
+                                                        <td>₺89</td>
+                                                        <td>
+                                                            <a href="" class="text-danger"><i class="mdi mdi-close-circle"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="row justify-content-end mt-4">
+                                            <div class="col-lg-4">
+                                                <div class="mt-4">
+                                                    <div class="row">
+                                                        <div class="col-7">
+                                                            <p class="">Ara Toplam : </p>
+                                                        </div>
+                                                        <div class="col-5 text-right">
+                                                            <span>₺583.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-7">
+                                                            <p class="">KDV (18%) : </p>
+                                                        </div>
+                                                        <div class="col-5 text-right">
+                                                            <span>₺104.94</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-7">
+                                                            <p class="">Toplam : </p>
+                                                        </div>
+                                                        <div class="col-5 text-right">
+                                                            <span>₺687.94</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-4">
+                                                        <div class="col-12">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="dicountCheckbox">
+                                                                <label class="custom-control-label" for="dicountCheckbox">Promosyon kodunu kullan</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-4">
+                                                        <div class="col-md-8">
+                                                            <input class="form-control" type="text" placeholder="İndirim Kodu">
+                                                        </div>
+                                                        <div class="col-md-4 text-right">
+                                                            <button class="btn btn-success waves-effect waves-light">Uygula</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-4">
+                                                        <div class="col-md-6">
+                                                            <a class="btn btn-outline-warning text-primary form-control" href="app-ecommerce-product.html">Alışverişe Devam Et</a>
+                                                        </div>
+                                                        <div class="col-md-6 text-right">
+                                                            <a class="btn btn-success form-control" href="app-ecommerce-checkout.html">Ödemeye Geç</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end card-->
+                            </div> <!-- end col -->                            
+                        </div><!--end row-->
+
+
+                    </div><!-- container -->
+
+                    <footer class="footer text-center text-sm-left">
+                        &copy; 2019 Frogetor <span class="text-muted d-none d-sm-inline-block float-right">Crafted with <i class="mdi mdi-heart text-danger"></i> by Mannatthemes</span>
+                    </footer>
+                </div>
+                <!-- end page content -->
+            </div>
+            <!--end page-wrapper-inner -->
+        </div>
+        <!-- end page-wrapper -->
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/metisMenu.min.js"></script>
+        <script src="assets/js/waves.min.js"></script>
+        <script src="assets/js/jquery.slimscroll.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>
